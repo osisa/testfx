@@ -6,6 +6,7 @@
     <AssemblyName>MSTestAdapter.PlatformServices.NetCore.UnitTests</AssemblyName>
     <DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <RunSettingsFilePath>$(RepoRoot)test\coverage.runsettings</RunSettingsFilePath>
   </PropertyGroup>
 
   <ItemGroup>

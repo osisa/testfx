@@ -1,0 +1,20 @@
+ <RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector">
+        <Configuration>
+          <CodeCoverage>
+            <ModulePaths mergeDefaults="False">
+              <Include>
+				<ModulePath>.*</ModulePath>
+              </Include>
+            </ModulePaths>
+            <EnableStaticNativeInstrumentation>False</EnableStaticNativeInstrumentation>
+            <EnableDynamicNativeInstrumentation>False</EnableDynamicNativeInstrumentation>
+          </CodeCoverage>
+          <TelemetryEnabled>False</TelemetryEnabled>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>

@@ -12,6 +12,7 @@
     <NoWarn>1685</NoWarn>
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
+    <RunSettingsFilePath>$(RepoRoot)test\coverage.runsettings</RunSettingsFilePath>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
