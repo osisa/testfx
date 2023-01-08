@@ -4,6 +4,7 @@
 using System;
 using System.Globalization;
 
+using Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Resources;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 #if !WINDOWS_UWP
