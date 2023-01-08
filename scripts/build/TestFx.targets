@@ -81,7 +81,7 @@
   <ItemGroup>
     <AssemblyMetadata Include="Branch" Value="$(BranchName)" />
     <AssemblyMetadata Include="Commit" Value="$(CommitHash)" />
-    <AssemblyMetadata Include="RepositoryUrl" Value="https://github.com/microsoft/testfx" />
+    <AssemblyMetadata Include="RepositoryUrl" Value="https://github.com/osisa/testfx" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(GenerateAssemblyInfo)' == 'false' ">

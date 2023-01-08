@@ -17,7 +17,7 @@
       - .NET 6.0 Windows.18362+
       - ASP.NET Core 1.0+
     </description>
-    <projectUrl>https://github.com/microsoft/testfx</projectUrl>
+    <projectUrl>https://github.com/osisa/testfx</projectUrl>
     <license type="expression">MIT</license>
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
@@ -25,7 +25,7 @@
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>MSTest TestFramework TestAdapter VisualStudio Unittest MSTestV2 Microsoft</tags>
     <repository type="git"
-                url="https://github.com/microsoft/testfx"
+                url="https://github.com/osisa/testfx"
                 branch="$BranchName$"
                 commit="$CommitHash$" />
 
